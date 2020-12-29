@@ -1,0 +1,6 @@
+.header{
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}

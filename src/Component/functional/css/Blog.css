@@ -1,0 +1,26 @@
+.blog-warper{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 17px 18px 34px -6px rgba(133,133,133,0.41);
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.blog-warper img{
+    width: 200px;
+    margin-bottom: -20px;
+}
+
+.blog-warper p{
+    color: grey;
+    font-size: small;
+    margin-top: -20px;
+}
+
+.blog-warper:hover{
+    box-shadow: 17px 18px 34px -6px rgba(131,219,164,1);
+}

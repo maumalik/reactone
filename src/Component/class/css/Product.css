@@ -1,0 +1,24 @@
+.product-warper{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 17px 18px 34px -6px rgba(133,133,133,0.41);
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.product-warper img{
+    width: 200px;
+}
+
+.product-warper p{
+    color: grey;
+    font-size: small;
+}
+
+.product-warper:hover{
+    box-shadow: 17px 18px 34px -6px rgba(131,219,164,1);
+}
